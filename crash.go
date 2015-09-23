@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/unixpickle/kahoot-hack/kahoot"
+	"github.com/padnezz/kahoot-hack-mod/kahoot"
 	"os"
 )
 
