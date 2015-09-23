@@ -23,13 +23,8 @@ func main() {
 		fmt.Println(err)
 		os.Exit(1)
 	}
-	fmt.Println("Awaiting questions...")
-	for {
-		if conn.WaitQuestion() != nil {
-			fmt.Println("Done question loop:", err)
-			os.Exit(1)
-		}
+	fmt.Println("Enter to start crash:")
+        fmt.Scanln(&crash)
 		fmt.Println("CRASHING!")
 		conn.SendCrashAnswer()
-	}
 }
