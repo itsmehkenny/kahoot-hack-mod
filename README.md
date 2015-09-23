@@ -14,7 +14,7 @@ Currently, I have implemented the following tools:
 
 **Mac OS X**:
 
-Use the almighty terminal ( ͡° ͜ʖ ͡°)
+Use the almighty terminal :)
 
 1. Install brew ( http://brew.sh/ )
 2. Use brew to install go ( https://golang.org/ ): 
