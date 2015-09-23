@@ -10,6 +10,6 @@ Currently, I have implemented the following tools:
  * flood.go - flood a lobby with a ton of bogus nicknames
  * regular.go - play the game regularly, answering questions as you progress
 
-# Dependencies
+# How to install the hack:
 
     go get github.com/gorilla/websocket
