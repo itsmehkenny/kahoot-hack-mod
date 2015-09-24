@@ -22,7 +22,7 @@ Use the almighty terminal :)
          brew install go
 3. Define the work space for go
 
-         echo 'export GOPATH=[path]'
+         export GOPATH=[path]
    (You need to do this command everytime you open the terminal,
    to do anything with GO. You could put this command in your .bash_profile,
    to make it run everytime.)
