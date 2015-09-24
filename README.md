@@ -22,9 +22,10 @@ Use the almighty terminal :)
          brew install go
 3. Define the work space for go
 
-         echo 'export GOPATH=[path]' >> [path]/.profile
-         source [path]/.profile
-         go env | grep GOPATH
+         echo 'export GOPATH=[path]'
+   (You need to do this command everytime you open the terminal,
+   to do anything with GO. You could put this command in your .bash_profile,
+   to make it run everytime.)
 4. Go into the workspace folder
 
          cd [path]
