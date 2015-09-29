@@ -11,9 +11,9 @@ func main() {
 	var nickname string
 	var crash string
 	fmt.Print("Padnezz Kahoot-hack-mod")
-	fmt.Print("Enter game pin: ")
+	fmt.Print("485834: ")
 	fmt.Scanln(&pin)
-	fmt.Print("Enter nickname: ")
+	fmt.Print("Enter Kenny: ")
 	fmt.Scanln(&nickname)
 	fmt.Println("Connecting...")
 	conn, err := kahoot.NewConnection(pin)
